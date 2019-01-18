@@ -63,17 +63,17 @@ Because you are using a preprocessor, there are two parts to setting up your pro
 Follow these steps to set up your project:
 
 - [x] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- [x] Add your project manager as collaborator on Github.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -112,9 +112,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [x] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [x] Main Content Styles: Use the `home-page.less` file for styling
 
 * [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
@@ -126,11 +126,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

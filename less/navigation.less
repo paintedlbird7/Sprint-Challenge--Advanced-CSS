@@ -6,21 +6,27 @@ img {
 
 header {
     width: 100%;
-    display: flex;
+    // display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    
+
 
     h1 {
         margin-top: 20px;
         font-size: 35px;
         align-content: center;
+        text-align: center;
+
     }     
     
     nav {
       margin-top: 40px; 
-      justify-content: space-between;
+      justify-content: center;
       display: flex;
       font-size: 14px;
       margin-bottom: 30px;
+      text-align: center;
   
       a {
         text-decoration: none;
@@ -29,9 +35,9 @@ header {
 
             }
 
-            @media @mobile {
+            @media @phone {
               width: 100%;
-              flex-direction: column;
+              flex-direction: row;
               background-color: aqua;
           }
         }

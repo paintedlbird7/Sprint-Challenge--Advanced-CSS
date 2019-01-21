@@ -224,16 +224,21 @@ header nav a {
   color: #414547;
   margin-right: 50px;
 }
+@media ( max-width: 500px ) {
+  header nav {
+    color: red;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
-  padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px red;
+  border: 2px solid black;
+  width: 100%;
 }
 .home {
   border: 2px solid red;

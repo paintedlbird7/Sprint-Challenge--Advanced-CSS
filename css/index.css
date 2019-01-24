@@ -302,6 +302,7 @@ footer {
   border: 2px solid red;
 }
 .home .walk {
+  flex-direction: row-reverse;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

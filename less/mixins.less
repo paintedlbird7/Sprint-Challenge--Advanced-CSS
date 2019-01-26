@@ -1,1 +1,82 @@
-// Mixins Here
+// // Variables
+// @custom-color:    white;
+// @company-red:     red;
+// @font-stack: 'Roboto', Arial, sans-serif;
+
+// Mixins
+.bordered() {
+    border-top: dotted 1px black;
+    border-bottom: solid 2px black;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  
+  .center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // parametric mixin (Because it has params!)
+  
+  // .custom-layout(center, center);
+  .custom-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+  }
+  
+  // .border-radius(10px);
+  .border-radius(@radius) {
+      border-radius: @radius;
+      -webkit-border-radius: @radius;
+      -moz-border-radius: @radius;
+  }
+  
+  // .custom-btn(200px, 45px, gray);
+  
+  .custom-btn(@width: 300px, @height: 200px, @bgcolor: white, @font-color: black) {
+    width: @width;
+    height: @height;
+    background-color: @bgcolor;
+    color: @font-color;
+    border: 1px solid black;
+    .border-radius(10px);
+    .center;
+    cursor: pointer;
+    margin: 20px 0;
+
+  
+    
+    &:hover {
+      background-color: @font-color;
+      color: @bgcolor;
+    }
+  }
+  
+  
+  
+  // .example() {
+  //   color: blue;
+  // }
+  
+  // .another-mixin() {
+  //   .bordered;
+  //   .example;
+  // }
+  
+  .box-sizing (@type: border-box) {
+      -webkit-box-sizing: @type;
+      -moz-box-sizing:    @type;
+      box-sizing:         @type;
+  }
+  
+    
+    
+  
+  .main-btn {
+     .custom-btn(100px, 45px, red, white);
+  }
+
+
+  // @phone: ~"(max-width: 500px)";
